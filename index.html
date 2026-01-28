@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elecciones Generales 2026</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYHHSGLB38"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-HYHHSGLB38');
   </script>
-
   <style>
     :root {
       --rojo: #b21f24;
@@ -79,7 +85,7 @@
       background: var(--blanco);
       border-radius: 12px;
       padding: 2rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
       display: grid;
       gap: 1.5rem;
     }
@@ -130,28 +136,113 @@
         font-size: 1.05rem;
       }
     }
+
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+      width: 60%;
+      margin: auto;
+    }
   </style>
 </head>
 
 <body>
 
   <header>
-    <img 
-      src="TU_VOTO_CRUZA_FRONTERAS.png" 
-      alt="Tu voto cruza fronteras"
-      class="hero-img"
-    >
+    <img src="img/TU_VOTO_CRUZA_FRONTERAS.png" alt="Tu voto cruza fronteras" class="hero-img">
 
     <div class="hero-text">
-      <h1>TU VOTO <span>CRUZA FRONTERAS</span></h1>
-      <p>
-        Elecciones Generales 2026 —  
-        El extranjero también decide el futuro del país.
-      </p>
+      <h1><span>PARTIDO POLÍTICO UN CAMINO DIFERENTE</span></h1>
+      <h1>Elecciones Generales 2026 - El extranjero también decide el futuro del país.</h1>
     </div>
   </header>
 
   <main>
+
+    <div id="theCarousel1" class="carousel slide" data-ride="carousel">
+      
+      <!-- Indicadores -->
+       <!--
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#theCarousel" data-slide-to="1"></li>
+-->
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/HUACO.PNG" alt="HUACO">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/5_HUACOS.jpg" alt="5_HUACOS" width="600" height="424">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#theCarousel1" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">anterior</span>
+        </a>
+        <a class="right carousel-control" href="#theCarousel1" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">siguiente</span>
+        </a>
+      </div>
+</div>
+      <br>
+      <br>
+
+      <div id="theCarousel2" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+         <!--
+        <ol class="carousel-indicators">
+          <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#theCarousel" data-slide-to="1"></li>
+          <li data-target="#theCarousel" data-slide-to="2"></li>
+
+        </ol>
+-->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/VOTANTES_CANTIDAD.jpg" alt="VOTANTES_CANTIDAD">
+            <div class="carousel-caption d-none d-md-block">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/VOTANTES_CONTINENTE.jpg" alt="VOTANTES_CONTINENTE" width="600" height="424">
+            <div class="carousel-caption d-none d-md-block">
+
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/VOTANTES_ELECTORES.jpg" alt="VOTANTES_ELECTORES" width="600" height="424">
+            <div class="carousel-caption d-none d-md-block">
+
+            </div>
+          </div>
+
+
+          <a class="left carousel-control" href="#theCarousel2" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">anterior</span>
+          </a>
+          <a class="right carousel-control" href="#theCarousel2" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">siguiente</span>
+          </a>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!--
     <section class="info">
       <div class="info-item">
         <h3>📅 Fecha</h3>
@@ -173,6 +264,8 @@
       <h2>Participar es <span>un derecho</span></h2>
       <p>Tu voto representa a millones de peruanos en el exterior.</p>
     </section>
+-->
+
   </main>
 
   <footer>
@@ -180,4 +273,5 @@
   </footer>
 
 </body>
+
 </html>
