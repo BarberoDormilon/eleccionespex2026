@@ -1,277 +1,367 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elecciones Generales 2026</title>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYHHSGLB38"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-HYHHSGLB38');
-  </script>
-  <style>
-    :root {
-      --rojo: #b21f24;
-      --negro: #111111;
-      --gris: #f2f2f2;
-      --blanco: #ffffff;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-      background: var(--gris);
-      color: var(--negro);
-      line-height: 1.5;
-    }
-
-    header {
-      background: var(--gris);
-      text-align: center;
-      padding-bottom: 2rem;
-    }
-
-    .hero-img {
-      width: 100%;
-      max-height: 420px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .hero-text {
-      margin-top: 2rem;
-      padding: 0 1rem;
-    }
-
-    .hero-text h1 {
-      font-size: 2.5rem;
-      font-weight: 900;
-      margin-bottom: 0.8rem;
-    }
-
-    .hero-text h1 span {
-      color: var(--rojo);
-    }
-
-    .hero-text p {
-      font-size: 1.2rem;
-      max-width: 760px;
-      margin: 0 auto;
-    }
-
-    main {
-      max-width: 1000px;
-      margin: 3rem auto;
-      padding: 0 1.5rem;
-    }
-
-    .info {
-      background: var(--blanco);
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-      display: grid;
-      gap: 1.5rem;
-    }
-
-    .info-item {
-      border-left: 6px solid var(--rojo);
-      padding-left: 1rem;
-    }
-
-    .info-item h3 {
-      font-size: 1.2rem;
-      margin-bottom: 0.3rem;
-    }
-
-    .destacado {
-      margin-top: 2.5rem;
-      text-align: center;
-      padding: 2rem;
-      background: var(--negro);
-      color: var(--blanco);
-      border-radius: 12px;
-    }
-
-    .destacado h2 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .destacado span {
-      color: var(--rojo);
-      font-weight: bold;
-    }
-
-    footer {
-      margin-top: 4rem;
-      padding: 1.5rem;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    @media (max-width: 600px) {
-      .hero-text h1 {
-        font-size: 2rem;
-      }
-
-      .hero-text p {
-        font-size: 1.05rem;
-      }
-    }
-
-    .carousel-inner>.item>img,
-    .carousel-inner>.item>a>img {
-      width: 60%;
-      margin: auto;
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <img src="img/TU_VOTO_CRUZA_FRONTERAS.png" alt="Tu voto cruza fronteras" class="hero-img">
-
-    <div class="hero-text">
-      <h1><span>PARTIDO POLÍTICO UN CAMINO DIFERENTE</span></h1>
-      <h1>Elecciones Generales 2026 - El extranjero también decide el futuro del país.</h1>
-    </div>
-  </header>
-
-  <main>
-
-    <div id="theCarousel1" class="carousel slide" data-ride="carousel">
-      
-      <!-- Indicadores -->
-       <!--
-      <ol class="carousel-indicators">
-        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#theCarousel" data-slide-to="1"></li>
--->
-      </ol>
-
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="img/HUACO.PNG" alt="HUACO">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/5_HUACOS.jpg" alt="5_HUACOS" width="600" height="424">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <a class="left carousel-control" href="#theCarousel1" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">anterior</span>
-        </a>
-        <a class="right carousel-control" href="#theCarousel1" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">siguiente</span>
-        </a>
-      </div>
-</div>
-      <br>
-      <br>
-
-      <div id="theCarousel2" class="carousel slide" data-ride="carousel">
-        <!-- Indicadores -->
-         <!--
-        <ol class="carousel-indicators">
-          <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#theCarousel" data-slide-to="1"></li>
-          <li data-target="#theCarousel" data-slide-to="2"></li>
-
-        </ol>
--->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="img/VOTANTES_CANTIDAD.jpg" alt="VOTANTES_CANTIDAD">
-            <div class="carousel-caption d-none d-md-block">
-
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Partido Un Camino Diferente</title>
+        <!-- GOOGLE ANALYTICS -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYHHSGLB38"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-HYHHSGLB38');
+        </script>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Custom CSS -->
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">
+                    <img src="assets/img/huaco.png" alt="Huaco" style="height:32px;">
+                    <strong>UN CAMINO DIFERENTE</strong>
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Cómo Votar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Plan de Gobierno</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Objetivos</a></li>                        
+                        <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>-->
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="item">
-            <img src="img/VOTANTES_CONTINENTE.jpg" alt="VOTANTES_CONTINENTE" width="600" height="424">
-            <div class="carousel-caption d-none d-md-block">
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold"><strong>Es momento de defender a los peruanos en el extranjero. Empieza contigo.</strong></h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">
+                        Este 12 de abril, <strong>Larry Cárdenas Zavaleta</strong>, #3 candidato por los peruanos en el extranjero, defiende tus derechos y 
+                        construye contigo un futuro más justo.
+                        </p>
 
+                        <!-- REDES SOCIALES -->
+                        <div class="social-section mb-4">
+
+                            <p class="text-white mb-2"><strong>Sígueme en redes</strong></p>
+
+                            <div class="social-icons">
+
+                                <a href="https://facebook.com/larry.cardenas.pex" target="_blank" class="social-icon">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+
+                                <a href="https://tiktok.com/@larry.cardenas.pex" target="_blank" class="social-icon">
+                                    <i class="bi bi-tiktok"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <a class="btn btn-primary btn-xl" href="#about">Únete al cambio</a>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="img/VOTANTES_ELECTORES.jpg" alt="VOTANTES_ELECTORES" width="600" height="424">
-            <div class="carousel-caption d-none d-md-block">
-
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">¿Cómo votar este 12 de abril?</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">
+                            Este <strong>12 de abril</strong>, decide por el futuro de los peruanos en el extranjero 🌍🇵🇪
+                            <br><br>
+                            ✔ Marca los <strong>5 huaquitos</strong> del partido.<br>
+                            ✔ En <strong>Diputado Extranjero</strong>, escribe el número <strong>3</strong>.<br><br>
+                            Tu voto representa a millones de peruanos fuera del país. Haz que se escuche fuerte 💪
+                        </p>
+                        <img src="assets/img/5_HUACOS_3_PEX.png" class="img-fluid mb-4" alt="Cómo votar">
+                        <br><br>
+                        <a class="btn btn-light btn-xl" href="#portfolio">Plan de Gobierno</a>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+                
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Plan de Gobierno Partido Un Camino Diferente</h2>
+                <a class="btn btn-light btn-xl" href="https://mpesije.jne.gob.pe/docs/de662f06-21d5-4523-a3ec-4fcbacabe16c.pdf">DESCARGAR</a>
+            </div>
+        </section>
 
 
-          <a class="left carousel-control" href="#theCarousel2" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">anterior</span>
-          </a>
-          <a class="right carousel-control" href="#theCarousel2" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">siguiente</span>
-          </a>
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/7.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/7.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/8.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/8.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/9.png" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/9.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Escribe 3</div>
+                                <div class="project-name">DIPUTADO #3</div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Un Camino Diferente">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    -->
+                </div>
+            </div>
         </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Plan de Gobierno Partido Un Camino Diferente</h2>
+                <a class="btn btn-light btn-xl" href="https://mpesije.jne.gob.pe/docs/de662f06-21d5-4523-a3ec-4fcbacabe16c.pdf">DESCARGAR</a>
+            </div>
+        </section>
 
+                <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Objetivos</h2>
+                <p class="text-center text-muted mb-5">Construyendo un Perú justo y próspero para todos</p>
+                <hr class="divider" />
 
+                <div class="row gx-4 gx-lg-5">
 
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-shield-check fs-2"></i>
+                    </div>
+                    <h4>Orden y Justicia para Todos</h4>
+                    <p class="text-muted">
+                    Priorizar un sistema de justicia rápido y accesible que garantice el respeto a las leyes.
+                    </p>
+                    </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-people fs-2"></i>
+                    </div>
+                    <h4>Liderazgo Ciudadano Activo</h4>
+                    <p class="text-muted">
+                    Empoderar a los ciudadanos para liderar el cambio desde sus comunidades.
+                    </p>
+                    </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-mortarboard fs-2"></i>
+                    </div>
+                    <h4>Educación para el Trabajo y la Vida</h4>
+                    <p class="text-muted">
+                    Impulsar una formación práctica y moderna enfocada en empleabilidad y valores.
+                    </p>
+                    </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-heart-pulse fs-2"></i>
+                    </div>
+                    <h4>Salud Preventiva y Comunitaria</h4>
+                    <p class="text-muted">
+                    Promover campañas de prevención y acceso a servicios médicos en zonas necesitadas.
+                    </p>
+                    </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-graph-up fs-2"></i>
+                    </div>
+                    <h4>Gestión Eficiente de Recursos</h4>
+                    <p class="text-muted">
+                    Optimizar los recursos públicos para garantizar obras y servicios de calidad.
+                    </p>
+                    </div>
+                    </div>
 
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-buildings fs-2"></i>
+                    </div>
+                    <h4>Ciudades Seguras y Modernas</h4>
+                    <p class="text-muted">
+                    Desarrollar infraestructura urbana moderna que priorice la seguridad.
+                    </p>
+                    </div>
+                    </div>
 
-        <!--
-    <section class="info">
-      <div class="info-item">
-        <h3>📅 Fecha</h3>
-        <p>12 de abril de 2026</p>
-      </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-gear fs-2"></i>
+                    </div>
+                    <h4>Fuerza Regional Productiva</h4>
+                    <p class="text-muted">
+                    Fortalecer las economías regionales con capacitación y acceso al mercado.
+                    </p>
+                    </div>
+                    </div>
 
-      <div class="info-item">
-        <h3>📍 Lugar</h3>
-        <p>Por determinar</p>
-      </div>
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-house fs-2"></i>
+                    </div>
+                    <h4>Familias como Pilar del Desarrollo</h4>
+                    <p class="text-muted">
+                    Crear programas integrales que fortalezcan el rol de las familias.
+                    </p>
+                    </div>
+                    </div>
 
-      <div class="info-item">
-        <h3>⏰ Hora</h3>
-        <p>Por determinar</p>
-      </div>
-    </section>
-
-    <section class="destacado">
-      <h2>Participar es <span>un derecho</span></h2>
-      <p>Tu voto representa a millones de peruanos en el exterior.</p>
-    </section>
--->
-
-  </main>
-
-  <footer>
-    © 2026 – Elecciones Generales | Información sujeta a confirmación oficial
-  </footer>
-
-</body>
-
+                    <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="p-3">
+                    <div class="mb-3 text-white bg-danger rounded p-3 d-inline-block">
+                    <i class="bi-lightbulb fs-2"></i>
+                    </div>
+                    <h4>Juventud con Oportunidades</h4>
+                    <p class="text-muted">
+                    Incentivar programas que apoyen a los jóvenes en emprendimientos y liderazgo.
+                    </p>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2026</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>

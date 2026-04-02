@@ -1,0 +1,119 @@
+/* Custom styles del proyecto */
+
+
+/* Color principal del sitio */
+.bg-primary {
+    background-color: #b02a37 !important;
+}
+.btn-primary {
+    background-color: #b02a37;
+    border-color: #b02a37;
+}
+
+.btn-primary:hover {
+    background-color: #8f1f2a;
+    border-color: #8f1f2a;
+}
+/* Fondo oscuro elegante */
+.bg-dark {
+    background-color: #1c1f23 !important;
+}
+/* Hover rojo para las imagenes del portfolio */
+.portfolio-box-caption {
+    background: rgba(176, 42, 55, 0.85) !important;
+    transition: all 0.3s ease;
+}
+
+/* ===============================
+   COLOR ROJO DEL MENÚ (TODOS LOS DISPOSITIVOS)
+   =============================== */
+
+/* link activo */
+#mainNav .navbar-nav .nav-item .nav-link.active{
+    color:#b02a37 !important;
+}
+
+/* hover del menú */
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+    color:#b02a37 !important;
+}
+
+/* cuando el navbar cambia al hacer scroll (desktop) */
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active{
+    color:#b02a37 !important;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover{
+    color:#b02a37 !important;
+}
+
+/* ===============================
+COLOR DEL LOGO DEL MENU
+=============================== */
+/* estado normal */
+#mainNav .navbar-brand strong{
+    transition:color .2s;
+}
+/* Hover del logo SOLO en escritorio */
+@media (min-width: 992px){
+
+    #mainNav .navbar-brand:hover strong{
+        color:#b02a37 !important;
+    }
+
+}
+/* ===============================
+ARREGLO NAVBAR MOVIL
+=============================== */
+
+@media (max-width: 991px){
+
+#mainNav .container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+#mainNav .navbar-brand{
+display:flex;
+align-items:center;
+gap:8px;
+font-size:18px;
+white-space:nowrap;
+}
+
+#mainNav .navbar-toggler{
+margin-left:auto;
+}
+/* ===============================
+REDES
+=============================== */
+}
+.social-icons{
+display:flex;
+justify-content:center;
+gap:25px;
+}
+
+.social-icon{
+font-size:40px;
+color:white;
+transition:all 0.3s ease;
+}
+
+.social-icon:hover{
+transform:scale(1.3);
+color:#ff3b3b;
+}
+
+.social-count{
+color:white;
+font-size:18px;
+font-weight:600;
+}
+/* ===============================
+REDUCIR MARGEN 
+=============================== */
+#about.page-section{
+padding:5rem 0 8rem 0 !important;
+}
